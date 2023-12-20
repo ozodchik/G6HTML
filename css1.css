@@ -1,0 +1,25 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+h1{
+    background: rgb(255, 0, 0);
+    color: pink;
+}
+
+body{
+    background: green;
+}
+
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+g{   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a{
+    font-family:   'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+y{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

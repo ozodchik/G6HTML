@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.con{
+    height: 100vh;
+    padding: 10px;
+    border: 1px solid red;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.nav3>a::after{
+    padding: 0 13px;
+    position: relative;
+    content: '';
+    width: 15px;
+    color: black;
+    transform: scale(0);
+    position: absolute;
+}
+
+.nav3>a:hover::after{
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in;
+}
+
+.nav2>button{
+    width: 100px;
+    height: 35px;
+    border-radius: 6px;
+    background: #46A358;
+    border: none;
+    color: red;
+}
+
+.left{
+    width: 310px;
+    height: 774px;
+    border: 1px solid blue;
+}

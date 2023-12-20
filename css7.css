@@ -1,0 +1,115 @@
+*{
+    padding: 50px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-size: 0px;
+    font-weight:  99;
+}
+
+.container > div {
+    background-color: #535353;
+    text-align: center;
+    padding: 20px 100;
+    font-size: 40px;
+}
+
+.container {
+    display: grid;
+    grid-template-areas:
+    "a a a b"
+    "e e f b"
+    "d g f b"
+    "d c c c";
+    background-color: #ffffff;
+    grid-gap: 8px;
+    padding: 10px;
+}
+
+.box1{
+    grid-area: a;
+}
+
+.box2{
+    grid-area: b;
+}
+
+.box3{
+    grid-area: c;
+}
+
+.box4{
+    grid-area: d;
+}
+
+.box5{
+    grid-area: e;
+}
+
+.box6{
+    grid-area: f;
+}
+
+.box7{
+    grid-area: g;
+    background-color: #fff;
+}
+
+
+
+.box-container > div {
+    background-color: #535353;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 100;
+    font-size: 40px;
+}
+
+.box-container {
+    display: grid;
+    grid-template-areas:
+    "a a a c c"
+    "a a a d d"
+    "b b b b b"
+    "e f g h i";
+    background-color: #ffffff;
+    grid-gap: 8px;
+    padding: 10px;
+}
+
+.a1{
+    grid-area: a;
+}
+
+.a2{
+    grid-area: b;
+}
+
+.a3{
+    grid-area: c;
+}
+
+.a4{
+    grid-area: d;
+}
+
+.a5{
+    grid-area: e;
+}
+
+.a6{
+    grid-area: f;
+}
+
+.a7{
+    grid-area: g;
+}
+
+.a8{
+    grid-area: h;
+}
+
+.a9{
+    grid-area: i;
+}

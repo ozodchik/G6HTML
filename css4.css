@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  body {
+    display: flex;
+    height: 100vh;
+    justify-content: space-evenly;
+    align-items: center;
+
+  }
+  .wrapper .container{
+    /* width: calc(33% - 10px); */
+    width: 400px;
+    height: 400px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 30px;
+    border-radius: 0px;
+    border:5px solid #002aff;
+  }
+  .container .quote i{
+  margin-top: 10px;
+  font-size: 45px;
+  color: #ff0000;
+  }
+  .wrapper .container .image{
+    margin: 10px 0;
+    height: 150px;
+    width: 150px;
+    background: #002aff;
+    padding: 5px;
+    border-radius: 50%;
+  }
+  .container .image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #fff;
+  }
+  .container p{
+    text-align: justify;
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .rating i{
+    font-size: 18px;
+    color: #002aff;
+    margin-bottom: 5px;
+  }
+  .btns{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .btns button{
+    background: #002aff;
+    width: 100%;
+    padding: 9px 0px;
+    outline: none;
+    border: 2px solid #002aff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 400;
+    color: #002aff;
+    transition: all 0.3s linear;
+  }
+  .btns button:first-child{
+    background: none;
+    margin-right: 5px;
+  }
+  .btns button:last-child{
+    color: #fff;
+    margin-left: 5px;
+  }
+  .btns button:first-child:hover{
+    background: #002aff;
+    color: #fff;
+  }
+  .btns button:hover{
+    color: #fff;
+  }
+  @media (max-width:1045px){
+    .wrapper .container{
+      width: calc(50% - 10px);
+      margin-bottom: 20px;
+    }
+  }
+  @media (max-width:710px){
+    .wrapper .container{
+      width: 100%;
+    }
+  }

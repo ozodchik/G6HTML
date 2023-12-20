@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.box:hover{
+    transform: scale(0.8);
+    /* transform: scale(2.5); */
+    /* transform: rotate(150deg); */
+    /* transition: all 3s ease; */
+    transition: 3s ease;
+    background: red;
+    border-radius: 50%;
+}
