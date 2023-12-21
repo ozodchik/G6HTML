@@ -512,7 +512,10 @@ main>.first>.main-btn>button {
     line-height: 16px;
 }
 
-.footer>div {
-    display: grid;
-    
+.footer>.footer-1 {
+    display: flex;
+    width: 1200px;
+    height: 250px;
+    flex-shrink: 0;
+
 }
